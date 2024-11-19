@@ -1,0 +1,89 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+.caja{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border: solid 10px black;
+    padding: 50px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 30px;
+}
+
+
+/* estilo de header */
+header{
+    background-color: #2B2B2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    width: 40%;
+}
+
+header nav ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/*estilos de main*/
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-wrap: wrap ;
+}
+
+main img{
+    width: 20%;
+}
+
+main h1 span{
+    display: block;
+}
+
+main .textos{
+    text-align: center;
+}
+
+main .boton{
+    background-color: #2B2B2B;
+    color: white;
+    display: inline-block;
+    padding: 9px;
+    flex-direction: column;
+}
+
+main .img{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    background-color: #2B2B2B;
+}
+
+section div img{
+    width: 30%;
+}
+
+section div{
+    text-align: center;
+    color: white;
+}

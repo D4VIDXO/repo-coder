@@ -1,0 +1,186 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fondo y texto general */
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #E0E0E0; /* Texto claro */
+    font-size: 16px;
+}
+
+/* Estilos para el div */
+div {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+div p {
+    margin-bottom: 10px;
+}
+
+div span {
+    color: #bbbbbb;
+}
+
+/* Encabezado */
+header {
+    background-color: #333333; /* Fondo del encabezado */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 60px; /* Ajustar altura del logo */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #E0E0E0; /* Texto claro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff9800; /* Color de hover */
+}
+
+/* Contenido principal */
+main {
+    padding: 40px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+main h1 {
+    color: #ff9800; /* Color llamativo para el título */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+main p {
+    line-height: 1.6;
+    color: #cccccc; /* Texto un poco más claro */
+}
+
+/* Pie de página */
+footer {
+    background-color: #333333;
+    padding: 20px;
+    text-align: center;
+    color: #E0E0E0;
+    margin-top: 20px;
+}
+
+/* Estilo específico para la página de servicios */
+body.servicios-page {
+    background-color: #181818; /* Fondo oscuro */
+    color: #E0E0E0; /* Texto claro */
+    font-size: 16px;
+    padding: 20px;
+}
+
+/* Enlace de 'volver a home' */
+.servicios-page a.volver-home {
+    color: #ffa726; /* Naranja suave */
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.servicios-page a.volver-home:hover {
+    color: #ffcc80; /* Color más claro en hover */
+}
+
+/* Título de la sección de servicios */
+.servicios-page h1.titulo-servicios {
+    color: #ffb74d; /* Color naranja pálido */
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+/* Párrafo de la sección de servicios */
+.servicios-page p.parrafo-servicios {
+    color: #bdbdbd; /* Texto gris claro */
+    font-size: 1.2rem;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.caja{ 
+    width: 50%;
+    height: 50vh;
+    background-color: blue;
+    border: 3px solid aqua;
+    text-align: center;
+    line-height: 100px  ;
+    margin: 10px;
+    /* flex grow permite cambiar el ancho de la caja de forma flexible */
+    flex-grow: 1;
+}
+
+.contenedor{
+    display: flex; /*Activa flex box*/
+    justify-content: center;/*horizontal*/
+    align-items: center;/*Vertical*/
+    padding: 10px;
+    flex-direction: column-reverse;
+}
+
+.navbar{
+    background-color: #79b8b4;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li{
+    margin: 0 15px;
+} 
+
+.navbar a{
+    color: #bdbdbd;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    width: 25%;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.main-content{
+    width: 75%;
+    background-color: #000000;
+    padding: 20px;
+
+}
+

@@ -1,0 +1,121 @@
+/* Estilos básicos */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+/* Header */
+header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #f44336; /* Color rojo de referencia al anime */
+}
+
+main h2{
+    color: #871008;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #f44336; /* Color rojo de referencia */
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+/* Sección de artículos */
+article img {
+    width: 100%;
+    max-width: 300px;
+
+}
+
+/* Pie de página */
+footer {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Clases adicionales */
+.negrita {
+    font-weight: bold;
+    color: #f44336; /* Resaltado en rojo */
+}
+
+main section img{
+    float: inline-end;
+    width: 280px;
+    margin-inline: 50px ;
+    
+}
+
+main section article img{
+    float: none;
+    width: 600px;
+    height: 180px;
+}
+
+span{
+    color: #ff1100;
+}
+
+.Acerca{
+    float: initial;
+    margin-left: 340px;
+    width: 800px;
+    height: auto;
+}
+
+.img_curiosidades{
+    float: inherit;
+    margin-left: 500px;
+    width: 500px;
+    height: auto;
+}
+
+p{
+    font-family: "Bona Nova SC", serif;
+} 
+
+li{
+    font-family: "Bona Nova SC", serif;
+}
+
+ul{
+    font-family: "Bona Nova SC", serif;
+}
+
+.img_episodios2{
+    float: inline-end;
+    width: 500px;
+    margin-right: 400px;
+}
+
+section ul{
+    text-align: center;
+}

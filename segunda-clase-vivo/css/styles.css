@@ -1,0 +1,53 @@
+/* selector{
+    propiiedada: valor;
+ }
+ */
+
+/* aplicar estilos por etiquetas */
+
+ header{
+    background-color: rgb(255, 255, 255);
+ }
+
+ /* aplicar estilos por class */
+ .texto{
+   color: green;
+ }
+ 
+ /* ruta de especificidad */
+
+ main h1 span{
+   background-color: rgb(255, 122, 122);
+   
+ }
+
+ /* aplicar estilos por id */
+
+ /* estilos de proyecto */
+
+ body{
+   background-color: #ffffff;
+ }
+
+ header{
+   text-align: center;
+ }
+
+ header nav ul {
+   list-style: none;
+ }
+
+ header nav ul li a {
+   text-decoration: none;
+   color: #000000;
+ }
+
+ body header nav ul li a {
+   background-color: blue;
+
+ }
+
+ img{
+   background-color: aqua
+   
+ }

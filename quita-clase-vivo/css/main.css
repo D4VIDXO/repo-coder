@@ -1,0 +1,13 @@
+.tomato-bg{
+    background-color: yellow;
+}
+
+header div nav div div ul li ul li .orange-hover:hover{
+    background-color: red;
+} 
+
+@media screen and (min-width:600px){
+    h1{
+        color: yellow;
+    }
+}
